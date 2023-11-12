@@ -4,13 +4,12 @@ body {
   margin: 0;
 }
 
-#hero{
+#hero {
   width: 592px;
-  margin: 0 auto 52px; /* top right bottom left*/
-
+  margin: 0 auto 52px; /* top right bottom left */
 }
 
-#hero img{
+#hero img {
   margin-bottom: 52px;
 }
 
@@ -19,7 +18,6 @@ h1 {
   font-size: 49px;
   line-height: 56px;
   font-weight: normal;
-
   margin-bottom: 32px;
 }
 
@@ -37,19 +35,19 @@ p, #footer {
   line-height: 28px;
 }
 
-#footer a + a{ /* + é "anterior", de trás para frente */
+#footer a + a {
   margin-left: 28px;
 }
 
-#footer .line{
+#footer .line {
   width: 568px;
   height: 0px;
   border: 1px #ECEFF2 solid;
   margin: 0px auto 8px;
 }
 
-#balls{
+#balls {
   position: fixed;
-  bottom: 0px;
-  right: 0px;
+  bottom: 0;
+  right: 0;
 }
